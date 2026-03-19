@@ -74,15 +74,15 @@ if(selected == 'BMI'):
             ]
         ])
         
-        if (loan_prediction[0] == 0):
+        if (bmi_prediction[0] == 0):
             
-          loan_prediction = 'Not Accept'
+          bmi_prediction = 'Not Accept'
           
         else:
             
-          loan_prediction = 'Accept'
+          bmi_prediction = 'Accept'
           
-    st.success(loan_prediction)
+    st.success(bmi_prediction)
 
 if(selected == 'Loan'):
     st.title('Loan Classification')
