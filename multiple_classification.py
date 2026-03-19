@@ -78,24 +78,19 @@ if(selected == 'BMI'):
         if (bmi_prediction[0] == 0):
           bmi_prediction = '0'
           
-        elif
-          (bmi_prediction[0] == 1):  
+        elif (bmi_prediction[0] == 1):  
           bmi_prediction = '1'
 
-        elif
-          (bmi_prediction[0] == 2):  
+        elif (bmi_prediction[0] == 2):  
           bmi_prediction = '2'
 
-        elif
-          (bmi_prediction[0] == 3):  
+        elif (bmi_prediction[0] == 3):  
           bmi_prediction = '3'
 
-        elif
-          (bmi_prediction[0] == 4):  
+        elif (bmi_prediction[0] == 4):  
           bmi_prediction = '4'
 
-        elif
-          (bmi_prediction[0] == 5):  
+        elif (bmi_prediction[0] == 5):  
           bmi_prediction = '5'
           
     st.success(bmi_prediction)
